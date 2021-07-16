@@ -1,5 +1,0 @@
-<apex:page standardController="Account" >
-    <apex:pageBlock >
-        <apex:outputLabel value="{!account.Name}"></apex:outputLabel>
-    </apex:pageBlock>
-</apex:page>
