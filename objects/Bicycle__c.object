@@ -154,6 +154,45 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Color</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+                <value>
+                    <fullName>Blue</fullName>
+                    <default>false</default>
+                    <label>Blue</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Grey</fullName>
+                    <default>false</default>
+                    <label>Grey</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>
